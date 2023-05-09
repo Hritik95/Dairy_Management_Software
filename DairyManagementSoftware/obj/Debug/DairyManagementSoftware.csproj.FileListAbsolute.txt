@@ -1,0 +1,17 @@
+C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\bin\Debug\DairyManagementSoftware.exe.config
+C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\bin\Debug\DairyManagementSoftware.exe
+C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\bin\Debug\DairyManagementSoftware.pdb
+C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\obj\Debug\DairyManagementSoftware.csproj.AssemblyReference.cache
+C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\obj\Debug\DairyManagementSoftware.csproj.SuggestedBindingRedirects.cache
+C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\obj\Debug\DairyManagementSoftware.login.resources
+C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\obj\Debug\DairyManagementSoftware.Properties.Resources.resources
+C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\obj\Debug\DairyManagementSoftware.csproj.GenerateResource.cache
+C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\obj\Debug\DairyManagementSoftware.csproj.CoreCompileInputs.cache
+C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\obj\Debug\DairyManagementSoftware.exe
+C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\obj\Debug\DairyManagementSoftware.pdb
+C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\obj\Debug\DairyManagementSoftware.home.resources
+C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\obj\Debug\DairyManagementSoftware.addmember.resources
+C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\obj\Debug\DairyManagementSoftware.updatemember.resources
+C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\obj\Debug\DairyManagementSoftware.deletemember.resources
+C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\obj\Debug\DairyManagementSoftware.collection_display.resources
+C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\obj\Debug\DairyManagementSoftware.sales_display.resources
