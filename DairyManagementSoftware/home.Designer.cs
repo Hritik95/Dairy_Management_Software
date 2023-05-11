@@ -91,9 +91,25 @@
             this.item_sales_record = new System.Windows.Forms.Button();
             this.coll_record_btn = new System.Windows.Forms.Button();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.id_inp_bill = new System.Windows.Forms.TextBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.close_btn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.bill_col_label = new System.Windows.Forms.Label();
+            this.sales_bill_label = new System.Windows.Forms.Label();
+            this.grand_total = new System.Windows.Forms.Label();
+            this.generate_btn = new System.Windows.Forms.Button();
+            this.print_btn = new System.Windows.Forms.Button();
             this.main_tab.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -102,6 +118,7 @@
             this.groupBox1.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
+            this.tabPage5.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -720,7 +737,7 @@
             // 
             // item_sales_record
             // 
-            this.item_sales_record.Location = new System.Drawing.Point(584, 210);
+            this.item_sales_record.Location = new System.Drawing.Point(196, 259);
             this.item_sales_record.Name = "item_sales_record";
             this.item_sales_record.Size = new System.Drawing.Size(401, 71);
             this.item_sales_record.TabIndex = 1;
@@ -730,7 +747,7 @@
             // 
             // coll_record_btn
             // 
-            this.coll_record_btn.Location = new System.Drawing.Point(584, 92);
+            this.coll_record_btn.Location = new System.Drawing.Point(196, 141);
             this.coll_record_btn.Name = "coll_record_btn";
             this.coll_record_btn.Size = new System.Drawing.Size(401, 63);
             this.coll_record_btn.TabIndex = 0;
@@ -740,6 +757,22 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.print_btn);
+            this.tabPage5.Controls.Add(this.generate_btn);
+            this.tabPage5.Controls.Add(this.grand_total);
+            this.tabPage5.Controls.Add(this.sales_bill_label);
+            this.tabPage5.Controls.Add(this.bill_col_label);
+            this.tabPage5.Controls.Add(this.label30);
+            this.tabPage5.Controls.Add(this.label29);
+            this.tabPage5.Controls.Add(this.label28);
+            this.tabPage5.Controls.Add(this.label27);
+            this.tabPage5.Controls.Add(this.dateTimePicker2);
+            this.tabPage5.Controls.Add(this.dateTimePicker1);
+            this.tabPage5.Controls.Add(this.id_inp_bill);
+            this.tabPage5.Controls.Add(this.label26);
+            this.tabPage5.Controls.Add(this.label25);
+            this.tabPage5.Controls.Add(this.label24);
+            this.tabPage5.Controls.Add(this.label23);
             this.tabPage5.Location = new System.Drawing.Point(4, 92);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
@@ -747,6 +780,64 @@
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Bill Generation";
             this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(1042, 202);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(274, 34);
+            this.dateTimePicker2.TabIndex = 6;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(493, 214);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(274, 34);
+            this.dateTimePicker1.TabIndex = 5;
+            // 
+            // id_inp_bill
+            // 
+            this.id_inp_bill.Location = new System.Drawing.Point(735, 117);
+            this.id_inp_bill.Name = "id_inp_bill";
+            this.id_inp_bill.Size = new System.Drawing.Size(296, 34);
+            this.id_inp_bill.TabIndex = 4;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(906, 202);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(59, 29);
+            this.label26.TabIndex = 3;
+            this.label26.Text = "To :";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(306, 214);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(88, 29);
+            this.label25.TabIndex = 2;
+            this.label25.Text = "From :";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(517, 120);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(155, 29);
+            this.label24.TabIndex = 1;
+            this.label24.Text = "Member ID :";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(728, 42);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(246, 42);
+            this.label23.TabIndex = 0;
+            this.label23.Text = "Generate Bill";
             // 
             // tabPage6
             // 
@@ -778,6 +869,87 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "CLOSE APPLICATION";
             // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(108, 214);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(81, 29);
+            this.label27.TabIndex = 7;
+            this.label27.Text = "Date :";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(230, 366);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(380, 29);
+            this.label28.TabIndex = 8;
+            this.label28.Text = "Total Bill From Milk Collection :";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(280, 424);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(330, 29);
+            this.label29.TabIndex = 9;
+            this.label29.Text = "Total Bill From Item Sales :";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(331, 526);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(279, 29);
+            this.label30.TabIndex = 10;
+            this.label30.Text = "Total Bill Outstanding :";
+            // 
+            // bill_col_label
+            // 
+            this.bill_col_label.AutoSize = true;
+            this.bill_col_label.Location = new System.Drawing.Point(833, 366);
+            this.bill_col_label.Name = "bill_col_label";
+            this.bill_col_label.Size = new System.Drawing.Size(0, 29);
+            this.bill_col_label.TabIndex = 11;
+            // 
+            // sales_bill_label
+            // 
+            this.sales_bill_label.AutoSize = true;
+            this.sales_bill_label.Location = new System.Drawing.Point(833, 424);
+            this.sales_bill_label.Name = "sales_bill_label";
+            this.sales_bill_label.Size = new System.Drawing.Size(0, 29);
+            this.sales_bill_label.TabIndex = 12;
+            this.sales_bill_label.Click += new System.EventHandler(this.sales_bill_label_Click);
+            // 
+            // grand_total
+            // 
+            this.grand_total.AutoSize = true;
+            this.grand_total.Location = new System.Drawing.Point(833, 526);
+            this.grand_total.Name = "grand_total";
+            this.grand_total.Size = new System.Drawing.Size(0, 29);
+            this.grand_total.TabIndex = 13;
+            // 
+            // generate_btn
+            // 
+            this.generate_btn.Location = new System.Drawing.Point(732, 281);
+            this.generate_btn.Name = "generate_btn";
+            this.generate_btn.Size = new System.Drawing.Size(242, 43);
+            this.generate_btn.TabIndex = 14;
+            this.generate_btn.Text = "Generate";
+            this.generate_btn.UseVisualStyleBackColor = true;
+            this.generate_btn.Click += new System.EventHandler(this.generate_btn_Click);
+            // 
+            // print_btn
+            // 
+            this.print_btn.Location = new System.Drawing.Point(596, 603);
+            this.print_btn.Name = "print_btn";
+            this.print_btn.Size = new System.Drawing.Size(194, 55);
+            this.print_btn.TabIndex = 15;
+            this.print_btn.Text = "Print";
+            this.print_btn.UseVisualStyleBackColor = true;
+            this.print_btn.Click += new System.EventHandler(this.print_btn_Click);
+            // 
             // home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -800,6 +972,8 @@
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             this.tabPage4.ResumeLayout(false);
+            this.tabPage5.ResumeLayout(false);
+            this.tabPage5.PerformLayout();
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
             this.ResumeLayout(false);
@@ -874,5 +1048,21 @@
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Button item_sales_record;
         private System.Windows.Forms.Button coll_record_btn;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox id_inp_bill;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Button print_btn;
+        private System.Windows.Forms.Button generate_btn;
+        private System.Windows.Forms.Label grand_total;
+        private System.Windows.Forms.Label sales_bill_label;
+        private System.Windows.Forms.Label bill_col_label;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label27;
     }
 }

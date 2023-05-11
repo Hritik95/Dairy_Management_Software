@@ -252,5 +252,68 @@ namespace DairyManagementSoftware
             sales_display s1 = new sales_display();
             s1.ShowDialog();
         }
+
+        private void generate_btn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int id = Convert.ToInt32(id_inp_bill.Text);
+                String date1 = dateTimePicker1.Value.ToString("MM-dd-yyyy");
+                String date2 = dateTimePicker2.Value.ToString("MM-dd-yyyy");
+
+                record_class r1 = new record_class();
+                String tot_col = r1.sum_coll(id, date1, date2);
+
+                if (tot_col == "error" || tot_col == "")
+                {
+                    MessageBox.Show("Record Not Found");
+                }
+                else
+                {
+                    bill_col_label.Text = tot_col;
+                }
+
+
+                sales_class s2 = new sales_class();
+                String tot_sales = s2.sum_sales(id, date1, date2);
+                if (tot_sales == "error" || tot_sales == "")
+                {
+                    MessageBox.Show("Record Not Found");
+                }
+                else
+                {
+                    sales_bill_label.Text = tot_sales;
+                }
+
+
+                int num1 = int.Parse(tot_col);
+                int num2 = int.Parse(tot_sales);
+
+                int grand = num1 - num2;
+                grand_total.Text = grand.ToString();
+
+
+            } catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+            
+        }
+
+        private void sales_bill_label_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void print_btn_Click(object sender, EventArgs e)
+        {
+            print_bill pb = new print_bill();
+            pb.col_total = bill_col_label.Text;
+            pb.sales_total = sales_bill_label.Text;
+            pb.grand_total = grand_total.Text;
+            pb.mem_id = Convert.ToInt32(id_inp_bill.Text);
+            pb.ShowDialog();
+        }
     }
 }

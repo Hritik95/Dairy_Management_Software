@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -54,6 +55,24 @@ namespace DairyManagementSoftware
             adpt.Fill(dt);
             con.Close();
             return dt;
+        }
+
+        public String sum_coll(int id, String Date1, String Date2)
+        {
+            String str;
+            con.Open();
+            String qry = "Select sum(Total_Amount) as sum from milk_collection_details where Member_id = '"+id+"' and Date between '"+Date1+"' and '"+Date2+"'";
+            cmd = new SqlCommand(qry, con);
+            SqlDataReader dr = cmd.ExecuteReader();
+            if (dr.Read())
+            {
+                str = dr["sum"].ToString();
+            }
+            else
+            {
+                str = "error";
+            }
+            return str;
         }
     }
 }

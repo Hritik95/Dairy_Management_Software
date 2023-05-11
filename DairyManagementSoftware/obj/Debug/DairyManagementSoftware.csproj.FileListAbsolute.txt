@@ -15,3 +15,4 @@ C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\obj\
 C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\obj\Debug\DairyManagementSoftware.deletemember.resources
 C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\obj\Debug\DairyManagementSoftware.collection_display.resources
 C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\obj\Debug\DairyManagementSoftware.sales_display.resources
+C:\Users\pawan\source\repos\DairyManagementSoftware\DairyManagementSoftware\obj\Debug\DairyManagementSoftware.print_bill.resources

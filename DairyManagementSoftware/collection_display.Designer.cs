@@ -33,8 +33,6 @@
             this.id_inp = new System.Windows.Forms.TextBox();
             this.show_btn = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.update_btn = new System.Windows.Forms.Button();
-            this.delete_btn = new System.Windows.Forms.Button();
             this.exit_btn = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -93,30 +91,10 @@
             this.dataGridView1.Size = new System.Drawing.Size(976, 437);
             this.dataGridView1.TabIndex = 4;
             // 
-            // update_btn
-            // 
-            this.update_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.update_btn.Location = new System.Drawing.Point(170, 650);
-            this.update_btn.Name = "update_btn";
-            this.update_btn.Size = new System.Drawing.Size(153, 50);
-            this.update_btn.TabIndex = 5;
-            this.update_btn.Text = "Update";
-            this.update_btn.UseVisualStyleBackColor = true;
-            // 
-            // delete_btn
-            // 
-            this.delete_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.delete_btn.Location = new System.Drawing.Point(484, 650);
-            this.delete_btn.Name = "delete_btn";
-            this.delete_btn.Size = new System.Drawing.Size(153, 50);
-            this.delete_btn.TabIndex = 6;
-            this.delete_btn.Text = "Delete";
-            this.delete_btn.UseVisualStyleBackColor = true;
-            // 
             // exit_btn
             // 
             this.exit_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exit_btn.Location = new System.Drawing.Point(777, 650);
+            this.exit_btn.Location = new System.Drawing.Point(485, 649);
             this.exit_btn.Name = "exit_btn";
             this.exit_btn.Size = new System.Drawing.Size(154, 50);
             this.exit_btn.TabIndex = 7;
@@ -141,8 +119,6 @@
             this.ClientSize = new System.Drawing.Size(1112, 727);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.exit_btn);
-            this.Controls.Add(this.delete_btn);
-            this.Controls.Add(this.update_btn);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.show_btn);
             this.Controls.Add(this.id_inp);
@@ -163,8 +139,6 @@
         private System.Windows.Forms.TextBox id_inp;
         private System.Windows.Forms.Button show_btn;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button update_btn;
-        private System.Windows.Forms.Button delete_btn;
         private System.Windows.Forms.Button exit_btn;
         private System.Windows.Forms.Label label3;
     }
