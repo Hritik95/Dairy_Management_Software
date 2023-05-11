@@ -33,18 +33,18 @@
             this.sales_tot = new System.Windows.Forms.Label();
             this.grand_tot = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.print_btn = new System.Windows.Forms.Button();
-            this.id_bill = new System.Windows.Forms.Label();
-            this.name = new System.Windows.Forms.Label();
-            this.address = new System.Windows.Forms.Label();
-            this.phone = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.phone = new System.Windows.Forms.Label();
+            this.address = new System.Windows.Forms.Label();
+            this.name = new System.Windows.Forms.Label();
+            this.id_bill = new System.Windows.Forms.Label();
+            this.print_btn = new System.Windows.Forms.Button();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
             this.panel1.SuspendLayout();
@@ -93,106 +93,14 @@
             this.panel1.Controls.Add(this.address);
             this.panel1.Controls.Add(this.name);
             this.panel1.Controls.Add(this.id_bill);
-            this.panel1.Controls.Add(this.print_btn);
             this.panel1.Controls.Add(this.grand_tot);
             this.panel1.Controls.Add(this.sales_tot);
             this.panel1.Controls.Add(this.col_tot);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 12);
+            this.panel1.Location = new System.Drawing.Point(0, 77);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1076, 636);
+            this.panel1.Size = new System.Drawing.Size(1076, 571);
             this.panel1.TabIndex = 3;
-            // 
-            // print_btn
-            // 
-            this.print_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.print_btn.Location = new System.Drawing.Point(465, 511);
-            this.print_btn.Name = "print_btn";
-            this.print_btn.Size = new System.Drawing.Size(153, 52);
-            this.print_btn.TabIndex = 3;
-            this.print_btn.Text = "Print";
-            this.print_btn.UseVisualStyleBackColor = true;
-            this.print_btn.Click += new System.EventHandler(this.print_btn_Click);
-            // 
-            // id_bill
-            // 
-            this.id_bill.AutoSize = true;
-            this.id_bill.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.id_bill.Location = new System.Drawing.Point(298, 73);
-            this.id_bill.Name = "id_bill";
-            this.id_bill.Size = new System.Drawing.Size(24, 25);
-            this.id_bill.TabIndex = 4;
-            this.id_bill.Text = "?";
-            // 
-            // name
-            // 
-            this.name.AutoSize = true;
-            this.name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.name.Location = new System.Drawing.Point(279, 126);
-            this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(24, 25);
-            this.name.TabIndex = 5;
-            this.name.Text = "?";
-            // 
-            // address
-            // 
-            this.address.AutoSize = true;
-            this.address.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.address.Location = new System.Drawing.Point(268, 189);
-            this.address.Name = "address";
-            this.address.Size = new System.Drawing.Size(24, 25);
-            this.address.TabIndex = 6;
-            this.address.Text = "?";
-            // 
-            // phone
-            // 
-            this.phone.AutoSize = true;
-            this.phone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.phone.Location = new System.Drawing.Point(271, 238);
-            this.phone.Name = "phone";
-            this.phone.Size = new System.Drawing.Size(24, 25);
-            this.phone.TabIndex = 7;
-            this.phone.Text = "?";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(69, 73);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(130, 25);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Member ID :";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(59, 126);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(81, 25);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Name :";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(72, 188);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(105, 25);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Address :";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(72, 238);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(126, 25);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "Phone No. :";
             // 
             // label1
             // 
@@ -224,6 +132,97 @@
             this.label3.TabIndex = 12;
             this.label3.Text = "Milk Collection Total :";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(72, 238);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(126, 25);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "Phone No. :";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(72, 188);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(105, 25);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Address :";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(59, 126);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(81, 25);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Name :";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(69, 73);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(130, 25);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Member ID :";
+            // 
+            // phone
+            // 
+            this.phone.AutoSize = true;
+            this.phone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.phone.Location = new System.Drawing.Point(271, 238);
+            this.phone.Name = "phone";
+            this.phone.Size = new System.Drawing.Size(24, 25);
+            this.phone.TabIndex = 7;
+            this.phone.Text = "?";
+            // 
+            // address
+            // 
+            this.address.AutoSize = true;
+            this.address.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.address.Location = new System.Drawing.Point(268, 189);
+            this.address.Name = "address";
+            this.address.Size = new System.Drawing.Size(24, 25);
+            this.address.TabIndex = 6;
+            this.address.Text = "?";
+            // 
+            // name
+            // 
+            this.name.AutoSize = true;
+            this.name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.name.Location = new System.Drawing.Point(279, 126);
+            this.name.Name = "name";
+            this.name.Size = new System.Drawing.Size(24, 25);
+            this.name.TabIndex = 5;
+            this.name.Text = "?";
+            // 
+            // id_bill
+            // 
+            this.id_bill.AutoSize = true;
+            this.id_bill.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.id_bill.Location = new System.Drawing.Point(298, 73);
+            this.id_bill.Name = "id_bill";
+            this.id_bill.Size = new System.Drawing.Size(24, 25);
+            this.id_bill.TabIndex = 4;
+            this.id_bill.Text = "?";
+            // 
+            // print_btn
+            // 
+            this.print_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.print_btn.Location = new System.Drawing.Point(895, 19);
+            this.print_btn.Name = "print_btn";
+            this.print_btn.Size = new System.Drawing.Size(153, 52);
+            this.print_btn.TabIndex = 3;
+            this.print_btn.Text = "Print";
+            this.print_btn.UseVisualStyleBackColor = true;
+            this.print_btn.Click += new System.EventHandler(this.print_btn_Click);
+            // 
             // printPreviewDialog1
             // 
             this.printPreviewDialog1.AutoScrollMargin = new System.Drawing.Size(0, 0);
@@ -240,6 +239,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1076, 648);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.print_btn);
             this.Name = "print_bill";
             this.Text = "print_bill";
             this.Load += new System.EventHandler(this.print_bill_Load);
