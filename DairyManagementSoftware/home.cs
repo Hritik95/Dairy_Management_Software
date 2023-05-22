@@ -264,7 +264,12 @@ namespace DairyManagementSoftware
                 record_class r1 = new record_class();
                 String tot_col = r1.sum_coll(id, date1, date2);
 
-                if (tot_col == "error" || tot_col == "")
+                if(tot_col == "")
+                {
+                    tot_col = "0";
+                }
+
+                if (tot_col == "error")
                 {
                     MessageBox.Show("Record Not Found");
                 }
@@ -276,7 +281,13 @@ namespace DairyManagementSoftware
 
                 sales_class s2 = new sales_class();
                 String tot_sales = s2.sum_sales(id, date1, date2);
-                if (tot_sales == "error" || tot_sales == "")
+
+                if (tot_sales == "")
+                {
+                    tot_sales = "0";
+                }
+
+                if (tot_sales == "error")
                 {
                     MessageBox.Show("Record Not Found");
                 }
@@ -314,6 +325,16 @@ namespace DairyManagementSoftware
             pb.grand_total = grand_total.Text;
             pb.mem_id = Convert.ToInt32(id_inp_bill.Text);
             pb.ShowDialog();
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
