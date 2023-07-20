@@ -44,12 +44,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Gainsboro;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(425, 260);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(457, 252);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(234, 36);
+            this.label1.Size = new System.Drawing.Size(187, 42);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Enter Password:";
+            this.label1.Text = "पासवर्ड टाका:";
             // 
             // text_inp
             // 
@@ -59,30 +59,31 @@
             this.text_inp.Name = "text_inp";
             this.text_inp.Size = new System.Drawing.Size(234, 41);
             this.text_inp.TabIndex = 2;
+            this.text_inp.UseSystemPasswordChar = true;
             // 
             // login_btn
             // 
             this.login_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.login_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.login_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.login_btn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.login_btn.Location = new System.Drawing.Point(491, 395);
             this.login_btn.Name = "login_btn";
             this.login_btn.Size = new System.Drawing.Size(168, 50);
             this.login_btn.TabIndex = 3;
-            this.login_btn.Text = "Login";
+            this.login_btn.Text = "लॉगिन";
             this.login_btn.UseVisualStyleBackColor = false;
             this.login_btn.Click += new System.EventHandler(this.login_btn_Click);
             // 
             // Cancel_btn
             // 
             this.Cancel_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Cancel_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cancel_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cancel_btn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Cancel_btn.Location = new System.Drawing.Point(732, 395);
             this.Cancel_btn.Name = "Cancel_btn";
             this.Cancel_btn.Size = new System.Drawing.Size(168, 50);
             this.Cancel_btn.TabIndex = 4;
-            this.Cancel_btn.Text = "Cancel";
+            this.Cancel_btn.Text = "रद्द";
             this.Cancel_btn.UseVisualStyleBackColor = false;
             this.Cancel_btn.Click += new System.EventHandler(this.Cancel_btn_Click);
             // 
@@ -93,9 +94,9 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 25.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(625, 113);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(130, 51);
+            this.label2.Size = new System.Drawing.Size(191, 49);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Login";
+            this.label2.Text = "लॉगिन करा";
             // 
             // pictureBox1
             // 

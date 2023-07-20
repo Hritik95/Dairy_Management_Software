@@ -75,13 +75,13 @@ namespace DairyManagementSoftware
             String qry;
             con.Open();
 
-            if (id == 0)
+            if (id == -1)
             {
-                qry = "select * from member_details";
+                qry = "select Member_ID as ID, Name as Name, Address as Address, Phone as Mobile, ac_opening_date as [Account Opening Date] from member_details";
             }
             else
             {
-                qry = "select * from member_details where Member_ID = '" + id + "'";
+                qry = "select Member_ID as ID, Name as Name, Address as Address, Phone as Mobile, ac_opening_date as [Account Opening Date] from member_details where Member_ID = '" + id + "'";
             }
 
             adpt = new SqlDataAdapter(qry, con);

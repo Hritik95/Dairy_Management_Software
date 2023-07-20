@@ -38,72 +38,72 @@
             this.name_inp = new System.Windows.Forms.TextBox();
             this.address_inp = new System.Windows.Forms.TextBox();
             this.mobile_inp = new System.Windows.Forms.TextBox();
-            this.date_inp = new System.Windows.Forms.DateTimePicker();
             this.add_btn = new System.Windows.Forms.Button();
             this.clear_btn = new System.Windows.Forms.Button();
             this.cancel_btn = new System.Windows.Forms.Button();
+            this.date_inp = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(328, 35);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(363, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(213, 38);
+            this.label1.Size = new System.Drawing.Size(163, 42);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Add Member";
+            this.label1.Text = "सदस्य जोडा";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(113, 129);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(151, 32);
+            this.label2.Size = new System.Drawing.Size(195, 36);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Member ID";
+            this.label2.Text = "आयडी प्रविष्ट करा:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(113, 186);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 32);
+            this.label3.Size = new System.Drawing.Size(64, 36);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Name";
+            this.label3.Text = "नाव :";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(113, 244);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(118, 32);
+            this.label4.Size = new System.Drawing.Size(66, 36);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Address";
+            this.label4.Text = "पत्ता :";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(113, 304);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(150, 32);
+            this.label5.Size = new System.Drawing.Size(140, 36);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Mobile No.";
+            this.label5.Text = "मोबाईल क्र. :";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(113, 365);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(244, 32);
+            this.label6.Size = new System.Drawing.Size(265, 36);
             this.label6.TabIndex = 5;
-            this.label6.Text = "A/C Opening Date";
+            this.label6.Text = "A/C उघडण्याची तारीख :";
             // 
             // id_inp
             // 
@@ -137,15 +137,6 @@
             this.mobile_inp.Size = new System.Drawing.Size(309, 38);
             this.mobile_inp.TabIndex = 9;
             // 
-            // date_inp
-            // 
-            this.date_inp.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.date_inp.Location = new System.Drawing.Point(468, 359);
-            this.date_inp.Name = "date_inp";
-            this.date_inp.Size = new System.Drawing.Size(309, 38);
-            this.date_inp.TabIndex = 10;
-            this.date_inp.Value = new System.DateTime(2023, 5, 7, 13, 26, 40, 0);
-            // 
             // add_btn
             // 
             this.add_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -153,7 +144,7 @@
             this.add_btn.Name = "add_btn";
             this.add_btn.Size = new System.Drawing.Size(167, 47);
             this.add_btn.TabIndex = 11;
-            this.add_btn.Text = "Add";
+            this.add_btn.Text = "जतन करा";
             this.add_btn.UseVisualStyleBackColor = true;
             this.add_btn.Click += new System.EventHandler(this.add_btn_Click);
             // 
@@ -164,7 +155,7 @@
             this.clear_btn.Name = "clear_btn";
             this.clear_btn.Size = new System.Drawing.Size(167, 47);
             this.clear_btn.TabIndex = 12;
-            this.clear_btn.Text = "Clear";
+            this.clear_btn.Text = "साफ करा";
             this.clear_btn.UseVisualStyleBackColor = true;
             this.clear_btn.Click += new System.EventHandler(this.clear_btn_Click);
             // 
@@ -175,19 +166,27 @@
             this.cancel_btn.Name = "cancel_btn";
             this.cancel_btn.Size = new System.Drawing.Size(167, 47);
             this.cancel_btn.TabIndex = 13;
-            this.cancel_btn.Text = "Cancel";
+            this.cancel_btn.Text = "रद्द करा";
             this.cancel_btn.UseVisualStyleBackColor = true;
             this.cancel_btn.Click += new System.EventHandler(this.cancel_btn_Click);
+            // 
+            // date_inp
+            // 
+            this.date_inp.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date_inp.Location = new System.Drawing.Point(468, 365);
+            this.date_inp.Name = "date_inp";
+            this.date_inp.Size = new System.Drawing.Size(309, 38);
+            this.date_inp.TabIndex = 15;
             // 
             // addmember
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(922, 579);
+            this.Controls.Add(this.date_inp);
             this.Controls.Add(this.cancel_btn);
             this.Controls.Add(this.clear_btn);
             this.Controls.Add(this.add_btn);
-            this.Controls.Add(this.date_inp);
             this.Controls.Add(this.mobile_inp);
             this.Controls.Add(this.address_inp);
             this.Controls.Add(this.name_inp);
@@ -217,9 +216,9 @@
         private System.Windows.Forms.TextBox name_inp;
         private System.Windows.Forms.TextBox address_inp;
         private System.Windows.Forms.TextBox mobile_inp;
-        private System.Windows.Forms.DateTimePicker date_inp;
         private System.Windows.Forms.Button add_btn;
         private System.Windows.Forms.Button clear_btn;
         private System.Windows.Forms.Button cancel_btn;
+        private System.Windows.Forms.DateTimePicker date_inp;
     }
 }

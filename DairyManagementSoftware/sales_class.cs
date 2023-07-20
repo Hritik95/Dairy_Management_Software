@@ -34,20 +34,33 @@ namespace DairyManagementSoftware
         }
 
 
-        public DataTable display(int id)
+        public DataTable display(int id, String Date1, String Date2)
         {
             String qry;
             con.Open();
 
-            if (id == 0)
-            {
-                qry = "select * from sales_details";
-            }
-            else
+            if (Date1 == Date2)
             {
                 qry = "select * from sales_details where Member_id = '" + id + "'";
             }
+            else
+            {
+                qry = "select * from sales_details where Member_id = '" + id + "' and Date between '" + Date1 + "' and '" + Date2 + "'";
+            }
 
+            adpt = new SqlDataAdapter(qry, con);
+            bld = new SqlCommandBuilder(adpt);
+            DataTable dt = new DataTable();
+            adpt.Fill(dt);
+            con.Close();
+            return dt;
+        }
+
+        public DataTable display()
+        {
+            String qry;
+            con.Open();
+            qry = "select * from sales_details";
             adpt = new SqlDataAdapter(qry, con);
             bld = new SqlCommandBuilder(adpt);
             DataTable dt = new DataTable();

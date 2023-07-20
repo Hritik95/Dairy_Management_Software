@@ -18,12 +18,12 @@ namespace DairyManagementSoftware
         SqlDataAdapter adpt;
 
 
-        public int addData(int id, String date, String milk_type, String session, int total_milk, int fat, int snf, int tot_amt)
+        public int addData(int id, String date, String milk_type, String session, float total_milk, float fat, float snf, float rate, float tot_amt)
         {
             try
             {
                 con.Open();
-                String query = "insert into milk_collection_details values(" + id + ",'" + date + "','" + milk_type + "','" + session + "','" + total_milk + "','"+ fat + "','"+ snf +"', '"+ tot_amt +"')";
+                String query = "insert into milk_collection_details values(" + id + ",'" + date + "','" + milk_type + "','" + session + "','" + total_milk + "','"+ fat + "','"+ snf +"', '"+ rate +"', '"+ tot_amt +"')";
                 cmd = new SqlCommand(query, con);
                 int no = cmd.ExecuteNonQuery();
                 con.Close();
@@ -35,20 +35,33 @@ namespace DairyManagementSoftware
             }
         }
 
-        public DataTable display(int id)
+        public DataTable display()
         {
             String qry;
             con.Open();
+            qry = "select * from milk_collection_details";
 
-            if (id == 0)
-            {
-                qry = "select * from milk_collection_details";
-            }
-            else
+            adpt = new SqlDataAdapter(qry, con);
+            bld = new SqlCommandBuilder(adpt);
+            DataTable dt = new DataTable();
+            adpt.Fill(dt);
+            con.Close();
+            return dt;
+        }
+
+        public DataTable display(int id, String Date1, String Date2)
+        {
+            String qry;
+            con.Open();
+            if(Date1 == Date2)
             {
                 qry = "select * from milk_collection_details where Member_id = '" + id + "'";
             }
-
+            else
+            {
+                qry = "select * from milk_collection_details where Member_id = '" + id + "' and Date between '"+Date1+"' and '"+Date2+"'";
+            }
+            
             adpt = new SqlDataAdapter(qry, con);
             bld = new SqlCommandBuilder(adpt);
             DataTable dt = new DataTable();

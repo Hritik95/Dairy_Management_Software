@@ -27,10 +27,27 @@ namespace DairyManagementSoftware
             try
             {
                 int id = Convert.ToInt32(id_inp.Text);
+                String date1 = dateTimePicker1.Value.ToString("MM-dd-yyyy");
+                String date2 = dateTimePicker2.Value.ToString("MM-dd-yyyy");
 
                 sales_class s1 = new sales_class();
                 DataTable dt = new DataTable();
-                dt = s1.display(id);
+                dt = s1.display(id,date1,date2);
+                dataGridView1.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Invalid Syntax");
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                sales_class s1 = new sales_class();
+                DataTable dt = new DataTable();
+                dt = s1.display();
                 dataGridView1.DataSource = dt;
             }
             catch (Exception ex)

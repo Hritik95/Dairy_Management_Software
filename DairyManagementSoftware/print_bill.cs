@@ -16,6 +16,7 @@ namespace DairyManagementSoftware
 
         public string col_total, sales_total, grand_total;
         public int mem_id;
+        public string date1, date2;
 
         PrintPreviewDialog prntprvw = new PrintPreviewDialog();
         PrintDocument pntdoc = new PrintDocument();
@@ -26,6 +27,8 @@ namespace DairyManagementSoftware
             col_tot.Text = col_total;
             sales_tot.Text = sales_total;
             grand_tot.Text = grand_total;
+            date1_show.Text = date1;
+            date2_show.Text = date2;
 
             try
             {

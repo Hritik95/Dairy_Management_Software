@@ -60,9 +60,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(77, 125);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(254, 32);
+            this.label2.Size = new System.Drawing.Size(233, 32);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Enter Member Id :";
+            this.label2.Text = "सदस्य आयडी प्रविष्ट करा:";
             // 
             // inp_id
             // 
@@ -76,41 +76,41 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(249, 36);
+            this.label3.Location = new System.Drawing.Point(267, 43);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(380, 38);
+            this.label3.Size = new System.Drawing.Size(318, 38);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Update Member Details";
+            this.label3.Text = "सदस्य तपशील अपडेट करा";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(181, 441);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(150, 32);
+            this.label5.Size = new System.Drawing.Size(136, 36);
             this.label5.TabIndex = 7;
-            this.label5.Text = "Mobile No.";
+            this.label5.Text = "मोबाईल क्र.";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(181, 360);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(118, 32);
+            this.label4.Size = new System.Drawing.Size(58, 36);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Address";
+            this.label4.Text = "पत्ता";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(181, 274);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(89, 32);
+            this.label6.Size = new System.Drawing.Size(56, 36);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Name";
+            this.label6.Text = "नाव";
             // 
             // inp_name
             // 
@@ -138,45 +138,45 @@
             // 
             // btn_update
             // 
-            this.btn_update.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_update.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_update.Location = new System.Drawing.Point(128, 546);
             this.btn_update.Name = "btn_update";
             this.btn_update.Size = new System.Drawing.Size(160, 48);
             this.btn_update.TabIndex = 11;
-            this.btn_update.Text = "Update";
+            this.btn_update.Text = "अपडेट करा";
             this.btn_update.UseVisualStyleBackColor = true;
             this.btn_update.Click += new System.EventHandler(this.btn_update_Click);
             // 
             // btn_clear
             // 
-            this.btn_clear.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_clear.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_clear.Location = new System.Drawing.Point(387, 546);
             this.btn_clear.Name = "btn_clear";
             this.btn_clear.Size = new System.Drawing.Size(160, 48);
             this.btn_clear.TabIndex = 12;
-            this.btn_clear.Text = "Clear";
+            this.btn_clear.Text = "साफ करा";
             this.btn_clear.UseVisualStyleBackColor = true;
             this.btn_clear.Click += new System.EventHandler(this.btn_clear_Click);
             // 
             // btn_cancel
             // 
-            this.btn_cancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_cancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cancel.Location = new System.Drawing.Point(645, 546);
             this.btn_cancel.Name = "btn_cancel";
             this.btn_cancel.Size = new System.Drawing.Size(160, 48);
             this.btn_cancel.TabIndex = 13;
-            this.btn_cancel.Text = "Cancel";
+            this.btn_cancel.Text = "रद्द करा";
             this.btn_cancel.UseVisualStyleBackColor = true;
             this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
             // 
             // show_btn
             // 
-            this.show_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.show_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.show_btn.Location = new System.Drawing.Point(765, 122);
             this.show_btn.Name = "show_btn";
             this.show_btn.Size = new System.Drawing.Size(105, 38);
             this.show_btn.TabIndex = 14;
-            this.show_btn.Text = "Show";
+            this.show_btn.Text = "दाखवा";
             this.show_btn.UseVisualStyleBackColor = true;
             this.show_btn.Click += new System.EventHandler(this.show_btn_Click);
             // 
